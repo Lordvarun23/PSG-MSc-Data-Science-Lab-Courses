@@ -1,0 +1,3 @@
+openssl req -x509 -key myprivate.key -sha256 -days 365 -out test_1.cer
+
+openssl x509 -in test.cer -noout -text
